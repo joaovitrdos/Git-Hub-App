@@ -45,7 +45,12 @@ const Repos = () => {
   return (
     <div className={classes.repos}>
       <BackBtn />
-      <h2>Explore os repositórios do usuário: {username}</h2>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
       {repos && repos.length === 0 && <p>Não há repositórios.</p>}
       {repos && repos.length > 0 && (
         <div className={classes.repos_container}>

@@ -31,6 +31,7 @@ const Search = ({ loadUser }: SearchProps) => {
           <BsSearch />
         </button>
       </div>
+      
     </div>
   );
 };
